@@ -1,21 +1,21 @@
 <div align="center">
   <img height="170x" src=https://avatars.githubusercontent.com/u/53411373?s=400&u=68cbd04e19073ad1598fefb85c342b42f529beb2&v=4/>
-  <h1>zFun</h1>
+  <h1>zetardio</h1>
 
   <p>
     <strong>Privacy-First Program Framework for Solana Ecosystem</strong>
   </p>
 
   <p>
-    <a href="https://zFun-lang.com"><img alt="Tutorials" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
-    <a href="https://discord.gg/zFun"><img alt="Discord Chat" src="https://img.shields.io/discord/889577356681945098?color=blueviolet" /></a>
-    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/zFun/zFun?color=blueviolet" /></a>
+    <a href="https://zetardio-lang.com"><img alt="Tutorials" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
+    <a href="https://discord.gg/zetardio"><img alt="Discord Chat" src="https://img.shields.io/discord/889577356681945098?color=blueviolet" /></a>
+    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/zetardio/zetardio?color=blueviolet" /></a>
   </p>
 </div>
 
-## What is zFun?
+## What is zetardio?
 
-zFun is a groundbreaking framework built for the Solana ecosystem, providing developers with seamless tools for writing privacy-focused programs and creating encrypted tokens that protect user transaction data while maintaining Solana's incredible speed and low costs.
+zetardio is a groundbreaking framework built for the Solana ecosystem, providing developers with seamless tools for writing privacy-focused programs and creating encrypted tokens that protect user transaction data while maintaining Solana's incredible speed and low costs.
 
 - **Unified Privacy API**: One codebase for encrypted transactions across Solana
 - **Private Token Creation**: Create SPL tokens with built-in encryption and zero-knowledge proofs
@@ -24,10 +24,10 @@ zFun is a groundbreaking framework built for the Solana ecosystem, providing dev
 - **TypeScript package**: Type-safe clients from IDL for encrypted communication
 - **CLI and workspace management**: Complete privacy-first application development
 
-zFun is the first framework to bring Zcash-style privacy to Solana, enabling truly private transactions at scale.
+zetardio is the first framework to bring Zcash-style privacy to Solana, enabling truly private transactions at scale.
 
 > [!NOTE]
-> zFun combines Solana's speed and affordability with enterprise-grade privacy. With 400ms block times, $0.00025 average transaction fees, and support for 65,000+ TPS, you get the performance you need with the privacy users deserve. If you're familiar with Anchor or native Solana development, you'll feel right at home with zFun's privacy-enhanced approach.
+> zetardio combines Solana's speed and affordability with enterprise-grade privacy. With 400ms block times, $0.00025 average transaction fees, and support for 65,000+ TPS, you get the performance you need with the privacy users deserve. If you're familiar with Anchor or native Solana development, you'll feel right at home with zetardio's privacy-enhanced approach.
 
 ## Key Features
 
@@ -40,13 +40,13 @@ zFun is the first framework to bring Zcash-style privacy to Solana, enabling tru
 - **Lightning Fast**: Leverage Solana's 400ms block times and sub-second finality
 - **Ultra Low Fees**: Deploy and transact with ~$0.00025 median transaction fees
 
-## Why Solana & zFun?
+## Why Solana & zetardio?
 
 ### Solana (2025 Performance)
 Solana continues to lead in performance with 400ms block times, processing over 65,000 transactions per second at peak, with average fees remaining under $0.001. The network handles millions of daily transactions with consistent sub-second finality.
 
-### zFun - Privacy for Solana
-zFun leverages Solana's infrastructure to provide:
+### zetardio - Privacy for Solana
+zetardio leverages Solana's infrastructure to provide:
 - **Zero-Knowledge Architecture**: Built on proven ZK-SNARK technology
 - **Full SPL Compatibility**: Private versions of any SPL token
 - **Solana Ecosystem Integration**: Seamless interaction with existing Solana programs
@@ -54,23 +54,23 @@ zFun leverages Solana's infrastructure to provide:
 
 ## Getting Started
 
-For a quickstart guide and in-depth tutorials, see the [zFun book](https://book.zFun-lang.com) and the [zFun documentation](https://zFun-lang.com).
+For a quickstart guide and in-depth tutorials, see the [zetardio book](https://book.zetardio-lang.com) and the [zetardio documentation](https://zetardio-lang.com).
 
-To jump straight to examples, go [here](https://github.com/zFun/zFun/tree/master/examples). For the latest Rust and TypeScript API documentation, see [docs.rs](https://docs.rs/zFun-lang) and the [typedoc](https://www.zFun-lang.com/docs/clients/typescript).
+To jump straight to examples, go [here](https://github.com/zetardio/zetardio/tree/master/examples). For the latest Rust and TypeScript API documentation, see [docs.rs](https://docs.rs/zetardio-lang) and the [typedoc](https://www.zetardio-lang.com/docs/clients/typescript).
 
 ## Packages
 
 | Package                 | Description                                              | Version                                                                                                                          | Docs                                                                                                            |
 | :---------------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| `zFun-lang`           | Rust primitives for writing privacy-preserving programs         | [![Crates.io](https://img.shields.io/crates/v/zFun-lang?color=blue)](https://crates.io/crates/zFun-lang)                     | [![Docs.rs](https://docs.rs/zFun-lang/badge.svg)](https://docs.rs/zFun-lang)                                |
-| `zFun-spl`            | CPI clients for private SPL tokens and standards | [![crates](https://img.shields.io/crates/v/zFun-spl?color=blue)](https://crates.io/crates/zFun-spl)                          | [![Docs.rs](https://docs.rs/zFun-spl/badge.svg)](https://docs.rs/zFun-spl)                                  |
-| `zFun-client`         | Rust client for zFun privacy programs              | [![crates](https://img.shields.io/crates/v/zFun-client?color=blue)](https://crates.io/crates/zFun-client)                    | [![Docs.rs](https://docs.rs/zFun-client/badge.svg)](https://docs.rs/zFun-client)                            |
-| `@zFun/sdk`           | TypeScript client for zFun programs                    | [![npm](https://img.shields.io/npm/v/@zFun/sdk.svg?color=blue)](https://www.npmjs.com/package/@zFun/sdk)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://zFun.github.io/zFun/ts/index.html)        |
-| `@zFun/cli`           | CLI to support building and managing private apps    | [![npm](https://img.shields.io/npm/v/@zFun/cli.svg?color=blue)](https://www.npmjs.com/package/@zFun/cli)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://zFun.github.io/zFun/cli/commands.html)    |
+| `zetardio-lang`           | Rust primitives for writing privacy-preserving programs         | [![Crates.io](https://img.shields.io/crates/v/zetardio-lang?color=blue)](https://crates.io/crates/zetardio-lang)                     | [![Docs.rs](https://docs.rs/zetardio-lang/badge.svg)](https://docs.rs/zetardio-lang)                                |
+| `zetardio-spl`            | CPI clients for private SPL tokens and standards | [![crates](https://img.shields.io/crates/v/zetardio-spl?color=blue)](https://crates.io/crates/zetardio-spl)                          | [![Docs.rs](https://docs.rs/zetardio-spl/badge.svg)](https://docs.rs/zetardio-spl)                                  |
+| `zetardio-client`         | Rust client for zetardio privacy programs              | [![crates](https://img.shields.io/crates/v/zetardio-client?color=blue)](https://crates.io/crates/zetardio-client)                    | [![Docs.rs](https://docs.rs/zetardio-client/badge.svg)](https://docs.rs/zetardio-client)                            |
+| `@zetardio/sdk`           | TypeScript client for zetardio programs                    | [![npm](https://img.shields.io/npm/v/@zetardio/sdk.svg?color=blue)](https://www.npmjs.com/package/@zetardio/sdk)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://zetardio.github.io/zetardio/ts/index.html)        |
+| `@zetardio/cli`           | CLI to support building and managing private apps    | [![npm](https://img.shields.io/npm/v/@zetardio/cli.svg?color=blue)](https://www.npmjs.com/package/@zetardio/cli)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://zetardio.github.io/zetardio/cli/commands.html)    |
 
 ## Note
 
-- **zFun is in active development, so all APIs are subject to change.**
+- **zetardio is in active development, so all APIs are subject to change.**
 - **This code is unaudited. Use at your own risk.**
 
 ## Examples
@@ -78,8 +78,8 @@ To jump straight to examples, go [here](https://github.com/zFun/zFun/tree/master
 Here's a private counter program that maintains an encrypted count, where only the designated `authority` can increment and view the real value:
 
 ```rust
-use zFun_lang::prelude::*;
-use zFun_lang::privacy::*;
+use zetardio_lang::prelude::*;
+use zetardio_lang::privacy::*;
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
@@ -177,23 +177,23 @@ pub enum ErrorCode {
 
 ```bash
 # Create a private SPL token with encrypted balances
-zFun token create --name "PrivateToken" --symbol "PVTK" --privacy shielded
+zetardio token create --name "PrivateToken" --symbol "PVTK" --privacy shielded
 
 # Deploy with privacy features
-zFun deploy --privacy-level high
+zetardio deploy --privacy-level high
 
 # Create shielded addresses
-zFun address generate --type shielded
+zetardio address generate --type shielded
 
 # Send encrypted transaction
-zFun transfer --to <shielded-address> --amount 100 --private
+zetardio transfer --to <shielded-address> --amount 100 --private
 ```
 
 ### Private Token Transfer Example
 
 ```rust
-use zFun_lang::prelude::*;
-use zFun_spl::private_token::*;
+use zetardio_lang::prelude::*;
+use zetardio_spl::private_token::*;
 
 declare_id!("PrivateTokenProgram111111111111111111111111");
 
@@ -242,11 +242,11 @@ mod private_transfer {
 }
 ```
 
-For more, see the [examples](https://github.com/zFun/zFun/tree/master/examples) and [tests](https://github.com/zFun/zFun/tree/master/tests) directories.
+For more, see the [examples](https://github.com/zetardio/zetardio/tree/master/examples) and [tests](https://github.com/zetardio/zetardio/tree/master/tests) directories.
 
 ## Architecture
 
-zFun uses a privacy-first runtime that integrates cryptographic primitives directly into Solana programs. The framework handles:
+zetardio uses a privacy-first runtime that integrates cryptographic primitives directly into Solana programs. The framework handles:
 
 - **Zero-Knowledge Proofs**: Generate and verify ZK-SNARKs for private transactions
 - **Encrypted State**: Store sensitive data on-chain with homomorphic encryption
@@ -257,7 +257,7 @@ zFun uses a privacy-first runtime that integrates cryptographic primitives direc
 
 ## Privacy Technology
 
-zFun implements multiple privacy-preserving techniques:
+zetardio implements multiple privacy-preserving techniques:
 
 ### Zero-Knowledge Proofs
 - **ZK-SNARKs**: Succinct non-interactive arguments of knowledge
@@ -307,7 +307,7 @@ zFun implements multiple privacy-preserving techniques:
 - **Confidential Voting**: Anonymous governance participation
 - **Selective Disclosure**: Compliance and audit capabilities
 
-## Why Choose zFun?
+## Why Choose zetardio?
 
 ### For Developers
 - **Familiar Tools**: Built on Anchor and Solana standards
@@ -332,26 +332,26 @@ zFun implements multiple privacy-preserving techniques:
 
 ## License
 
-zFun is licensed under [Apache 2.0](./LICENSE).
+zetardio is licensed under [Apache 2.0](./LICENSE).
 
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in zFun by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in zetardio by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
 
 ## Contribution
 
-Thank you for your interest in contributing to zFun!
+Thank you for your interest in contributing to zetardio!
 Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) to learn how.
 
 ## The Future is Private
 
-zFun represents the future of blockchain privacy: a world where users control their financial data, where transactions are confidential by default, and where privacy and performance coexist seamlessly on Solana.
+zetardio represents the future of blockchain privacy: a world where users control their financial data, where transactions are confidential by default, and where privacy and performance coexist seamlessly on Solana.
 
-With Solana's commitment to scalability and decentralization, combined with zFun's privacy-first approach, we're building the foundation for truly private, decentralized finance.
+With Solana's commitment to scalability and decentralization, combined with zetardio's privacy-first approach, we're building the foundation for truly private, decentralized finance.
 
 ### Thanks ❤️
 
 <div align="center">
-  <a href="https://github.com/zFun/zFun/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=zFun/zFun" width="100%" />
+  <a href="https://github.com/zetardio/zetardio/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=zetardio/zetardio" width="100%" />
   </a>
 </div>
 
@@ -361,7 +361,7 @@ With Solana's commitment to scalability and decentralization, combined with zFun
 
 - [Solana Official Documentation](https://docs.solana.com/)
 - [Zero-Knowledge Proofs Explained](https://z.cash/technology/zksnarks/)
-- [zFun Network Documentation](#) (Coming soon)
+- [zetardio Network Documentation](#) (Coming soon)
 - [Solana Developer Resources](https://solana.com/developers)
 - [Privacy-Preserving Cryptocurrencies Research](https://crypto.stanford.edu/)
 - [SPL Token Documentation](https://spl.solana.com/token)
@@ -370,20 +370,20 @@ With Solana's commitment to scalability and decentralization, combined with zFun
 
 ## Security & Audits
 
-Privacy and security are paramount. zFun undergoes regular security audits by leading blockchain security firms. For security researchers, please see our [SECURITY.md](./SECURITY.md) for responsible disclosure.
+Privacy and security are paramount. zetardio undergoes regular security audits by leading blockchain security firms. For security researchers, please see our [SECURITY.md](./SECURITY.md) for responsible disclosure.
 
 ## Community
 
 Join our growing community of privacy advocates and developers:
 
-- **Discord**: [discord.gg/zFun](https://discord.gg/zFun)
-- **Twitter**: [@zFun](https://twitter.com/zFun)
-- **Forum**: [forum.zFun.com](https://forum.zFun.com)
-- **Telegram**: [t.me/zFun](https://t.me/zFun)
+- **Discord**: [discord.gg/zetardio](https://discord.gg/zetardio)
+- **Twitter**: [@zetardio](https://twitter.com/zetardio)
+- **Forum**: [forum.zetardio.com](https://forum.zetardio.com)
+- **Telegram**: [t.me/zetardio](https://t.me/zetardio)
 
 ## Acknowledgments
 
-zFun builds on the groundbreaking work of privacy-focused cryptocurrencies like Zcash and combines it with Solana's industry-leading performance. Special thanks to the Solana Foundation, the zero-knowledge cryptography research community, and all our contributors.
+zetardio builds on the groundbreaking work of privacy-focused cryptocurrencies like Zcash and combines it with Solana's industry-leading performance. Special thanks to the Solana Foundation, the zero-knowledge cryptography research community, and all our contributors.
 
-**Privacy is a right, not a privilege. Build with zFun.**
+**Privacy is a right, not a privilege. Build with zetardio.**
 ](https://avatars.githubusercontent.com/u/53411373?v=4)
